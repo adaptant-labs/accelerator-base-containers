@@ -1,14 +1,14 @@
 #!/bin/sh
 
 if [ $# -eq 0 ]; then
-	dockerfiles=$(find * -not -path "examples/*" -type f -name Dockerfile)
+	dockerfiles=$(find * -type f -name Dockerfile)
 else
 	dockerfiles=$1
 fi
 
 for i in $dockerfiles; do
-	image_name=acceleratorbase/$(echo $i | awk -F/ '{ print $2 }')
 	dir_name=$(dirname `echo $i`)
+	image_name=acceleratorbase/example-$dir_name
 	docker buildx build \
 		--platform=`cat $dir_name/.platform` \
 		-t $image_name \

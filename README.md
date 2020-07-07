@@ -19,6 +19,10 @@ Containers are published on Docker Hub under the `acceleratorbase` namespace:
 [edgetpu/edgetpu-std]: https://github.com/adaptant-labs/accelerator-base-containers/tree/master/edgetpu/edgetpu-std
 [edgetpu/edgetpu-max]: https://github.com/adaptant-labs/accelerator-base-containers/tree/master/edgetpu/edgetpu-max
 
+Some examples using the base containers are available in the [examples] directory.
+
+[examples]: https://github.com/adaptant-labs/accelerator-base-containers/tree/master/examples
+
 ## Features and bugs
 
 Please file feature requests (including support for additional target architectures) and bugs in the [issue tracker][tracker].
