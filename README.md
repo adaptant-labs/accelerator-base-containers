@@ -12,10 +12,12 @@ Containers are published on Docker Hub under the `acceleratorbase` namespace:
 | Image | Path | Architecture(s) | Description |
 |-------|------|-----------------|-------------|
 | `acceleratorbase/ncs2-rpi` | [intel-ncs2/ncs2-rpi] | arm64 | OpenVINO runtime for the Intel Neural Compute Stick 2 running on a Raspberry Pi 3 or 4 (raspbian) |
+| `acceleratorbase/openvino-base` | [intel-ncs2/openvino-base] | amd64 | OpenVINO runtime for the Intel Neural Compute Stick 2 running on AMD64 (ubuntu 20.04) |
 | `acceleratorbase/edgetpu-std` | [edgetpu/edgetpu-std] | amd64, arm64 | EdgeTPU runtime running at standard clock speed |
 | `acceleratorbase/edgetpu-max` | [edgetpu/edgetpu-max] | amd64, arm64 | EdgeTPU runtime running at maximum clock speed |
 
 [intel-ncs2/ncs2-rpi]: https://github.com/adaptant-labs/accelerator-base-containers/tree/master/intel-ncs2/ncs2-rpi
+[intel-ncs2/openvino-base]: https://github.com/adaptant-labs/accelerator-base-containers/tree/master/intel-ncs2/openvino-base
 [edgetpu/edgetpu-std]: https://github.com/adaptant-labs/accelerator-base-containers/tree/master/edgetpu/edgetpu-std
 [edgetpu/edgetpu-max]: https://github.com/adaptant-labs/accelerator-base-containers/tree/master/edgetpu/edgetpu-max
 
